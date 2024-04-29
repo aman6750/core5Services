@@ -7,9 +7,14 @@
   header{
     border: 1px solid red;
     display: flex;
-    justify-content: space-evenly;
-    font-size: 15px;
+    justify-content: space-between;
     padding: 1%;
-      }
+    background-color: rgb(60, 207, 91) ;
+    }
+
+  header>div{
+    display: flex;
+    justify-content: space-around;
+  }
 
 

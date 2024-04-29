@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .logo>img{
+    width: 120px;
+    height: 80%;
+    border-radius: 30%;
+  }
+  .logo{
+    height:140px;
+    border: 2px solid red;
+  }
+
+  .navbar{
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    background-color: rgb(216, 55, 160) ;
+    }
+    .menu {
+        list-style-type: none;
+        padding: 1%;
+        margin: 0;
+
+        display: flex; /* Make menu items display horizontally */
+        justify-content: space-between;
+        border: 2px solid red;
+      }
+      .menu .dropdown {
+        display: none; /* Hide dropdowns by default */
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #fff; /* Background color of the dropdown */
+        padding: 10px;
+        border: 1px solid #ccc; /* Border around the dropdown */
+        border-top: none; /* Remove top border to align with menu */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+        opacity: 0;
+        transition: opacity 0.3s ease; /* Add transition effect for opacity */
+      }
+      
+      .menu li:hover .dropdown {
+        display: block; /* Display dropdown on hover */
+        opacity: 1; /* Make dropdown visible */
+      }
+      
+      .dropdown ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+      
+      .dropdown li {
+        margin-bottom: 5px; /* Add spacing between dropdown items */
+      }

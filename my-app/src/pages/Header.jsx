@@ -1,10 +1,9 @@
 import React from 'react'
 import '../styles/Header.css'
-import { FaPhoneAlt, FaEnvelope, FaFacebook, FaTwitter, FaLinkedin, FaYoutube, FaMapMarker } from 'react-icons/fa'; // Import icons from React Icons
+import { FaPhoneAlt, FaEnvelope, FaFacebook, FaTwitter, FaLinkedin, FaYoutube, FaMapMarker } from 'react-icons/fa';
 
 
 function Header() {
-    
   return (
     <header>
       <div className="contact-info">
