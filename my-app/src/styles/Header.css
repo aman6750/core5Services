@@ -4,18 +4,12 @@
     box-sizing: border-box;
   }
 
-  #nav{
-
+  header{
     border: 1px solid red;
     display: flex;
     justify-content: space-evenly;
     font-size: 15px;
     padding: 1%;
-    /* box-shadow: 2px 2px 5px 5px rgb(235, 235, 235); */
+      }
 
-}
 
-#nav>div{
-    display: flex;
-    list-style: none;
-}
